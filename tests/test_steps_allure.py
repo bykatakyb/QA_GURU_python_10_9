@@ -10,7 +10,7 @@ from selene.support.shared.jquery_style import s
 @allure.feature('GitHub issue search using allure_steps')
 def test_github_allure_steps():
     with allure.step("Открытие главной страницы GitHub"):
-        browser.open("https://www.github.com")
+        browser.open("")
     with allure.step("Поиск нужного репозитория"):
         s(".search-input").click()
         s("#query-builder-test").send_keys("eroshenkoam/allure-example").press_enter()

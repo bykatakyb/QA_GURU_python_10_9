@@ -8,7 +8,7 @@ issue_name_test = "Issue for HW qa.guru"
 
 @allure.step("Открытие главной страницы GitHub")
 def open_main_page():
-    browser.open("https://www.github.com")
+    browser.open("")
 
 
 @allure.step("Поиск нужного репозитория {repo}")
